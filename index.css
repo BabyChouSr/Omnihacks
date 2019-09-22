@@ -184,3 +184,7 @@ body::-webkit-scrollbar {
 
     border: solid black 3px;
 }
+
+h3 {
+    text-align: center;
+}
