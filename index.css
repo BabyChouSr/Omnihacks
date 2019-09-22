@@ -158,3 +158,13 @@ button {
 
     border: solid black 3px;
 }
+
+#accuracy {
+    width: 70%;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: solid black 3px;
+}
