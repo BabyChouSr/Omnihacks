@@ -57,13 +57,61 @@
         #black {
             padding-left: 13em;
         }
+    #menuButton {
+        display: block;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 4px;
+
+        font-size: 26px;
+        padding: 6px 12px;
+
+        background-color: #f8e5c6;
+        color: brown;
+        padding: 12px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    #navPages {
+        display: none;
+        margin: 0 auto;
+    }
+
+    #navPages button {
+        margin: 0 auto;
+        display: block;
+
+        z-index: -1;
+        
+        background-color: #f8e5c6;
+        color: brown;
+        padding: 12px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
+
+
     </style>
     <head>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <button onclick="openNav()" id="menuButton">≡</button>
+        <div id="navPages">
+            <button onclick="window.location.href = 'index.html'">Home</button>
+            <button onclick="window.location.href = 'aboutus.html'">About Us</button>
+            <button onclick="window.location.href = 'donate.html'">Donate</button>
+            <button onclick="window.location.href = 'calculator.html'">Calculator</button>
+        </div>
+
+
         <h1>
            About Us
         </h1>
-    </head>
-    <body>
         <div id = cont>
             <b>Our Mission:</b><br>
             <div id = lil>

@@ -22,6 +22,13 @@ body::-webkit-scrollbar {
 
     font-size: 26px;
     padding: 6px 12px;
+
+    background-color: #f8e5c6;
+    color: brown;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
 }
 
 #navPages {
@@ -34,9 +41,7 @@ body::-webkit-scrollbar {
     display: block;
 
     z-index: -1;
-}
-
-button {
+    
     background-color: #f8e5c6;
     color: brown;
     padding: 12px;
@@ -44,6 +49,7 @@ button {
     cursor: pointer;
     width: 100%;
 }
+
 
 #main {
     perspective: 1px;
